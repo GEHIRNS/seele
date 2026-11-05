@@ -1,0 +1,38 @@
+benchmark_id,benchmark,area,gold,metric,seele-1.0-3.3B,Jeffan-4B-2010 Q8_0,Jeffan-4B-2010 BF16 (reported),Jev 1.14 (reported)
+25,GPQA Diamond,Knowledge & Reasoning,yes,accuracy,30.61,27.89,27.89,67.35
+30,GSM8K,Knowledge & Reasoning,no,accuracy,37.17,53.10,53.41,67.84
+31,ChessBench,Knowledge & Reasoning,no,accuracy,11.32,10.78,11.08,9.47
+32,MuSR,Knowledge & Reasoning,no,accuracy,74.63,75.47,75.26,56.45
+33,SATA-Bench,Knowledge & Reasoning,no,case exact accuracy,41.97,41.53,41.85,26.92
+43,CRUXEval,Knowledge & Reasoning,no,accuracy,27.63,34.87,35.42,59.92
+44,CLadder,Knowledge & Reasoning,no,accuracy,85.28,85.04,85.12,77.16
+45,HLE,Knowledge & Reasoning,yes,accuracy,0.00,0.00,0.00,3.53
+57,MMLU-Pro,Knowledge & Reasoning,yes,accuracy,52.84,57.74,57.86,79.90
+58,BBH fixed-option tasks,Knowledge & Reasoning,yes,accuracy,77.90,80.45,80.45,90.13
+28,WinoGrande,Knowledge & Reasoning,yes,accuracy,76.32,77.26,77.42,82.16
+11,ContractNLI,Language Understanding,no,macro-F1,76.74,76.70,76.93,57.71
+12,ANLI,Language Understanding,yes,macro-F1,60.26,63.71,63.74,61.46
+29,HellaSwag,Language Understanding,yes,accuracy,92.77,93.39,93.36,92.45
+38,ACOS,Language Understanding,no,per-review F1,55.37,57.20,57.51,31.00
+39,FinEntity,Language Understanding,no,macro-F1,91.62,90.22,90.01,81.88
+40,iSarcasmEval,Language Understanding,no,"Sarcasm F1 · track A, English",39.48,41.52,41.30,39.89
+41,VAST,Language Understanding,no,macro-F1,68.18,68.95,68.73,60.47
+42,NLI4CT,Language Understanding,no,macro-F1,69.14,70.31,70.60,71.05
+59,RAGTruth response-level hallucination,Language Understanding,no,F1 on hallucinated class,61.52,61.79,62.37,48.41
+4,BANKING77,Retrieval & Classification,yes,macro-F1,90.65,91.24,91.30,79.68
+5,CLINC150+OOS,Retrieval & Classification,yes,macro-F1,95.19,95.22,95.23,90.22
+36,BRIGHT,Retrieval & Classification,yes,nDCG@10,37.00,37.55,37.63,40.10
+37,Amazon ESCI,Retrieval & Classification,no,macro-F1,48.66,49.69,49.80,46.30
+56,PhishNChips phishing decisions,Retrieval & Classification,no,accuracy,19.50,17.00,18.00,67.50
+61,HoVer claim verification,Retrieval & Classification,no,accuracy,76.50,77.20,77.40,53.50
+1,BFCL,Tools & Automation,yes,case exact accuracy,95.22,94.90,95.14,95.14
+2,ToolRet,Tools & Automation,no,nDCG@10,69.53,69.19,69.59,59.64
+3,API-Bank,Tools & Automation,yes,accuracy,84.95,85.35,85.75,86.35
+9,Home appliance simulator,Tools & Automation,no,case exact accuracy,97.73,97.73,97.73,45.45
+62,When2Call MCQ,Tools & Automation,no,accuracy,87.77,87.69,87.59,75.53
+20,BPoMP,Arts & Human Taste,no,accuracy,80.37,81.79,81.21,80.82
+21,Humicroedit,Arts & Human Taste,no,accuracy,32.12,31.66,31.66,23.52
+22,POP909-CL,Arts & Human Taste,no,accuracy,73.99,74.72,75.37,15.30
+23,cfcolor,Arts & Human Taste,no,accuracy,20.37,24.12,24.39,30.07
+50,Habermas Machine,Arts & Human Taste,no,accuracy,43.28,45.88,45.88,19.55
+64,New Yorker caption matching,Arts & Human Taste,no,accuracy,68.99,68.99,69.23,65.68

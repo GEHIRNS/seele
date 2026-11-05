@@ -1,0 +1,6 @@
+run,model,what,context,gpu,requests,decisions_per_s,latency_p50_ms,latency_p95_ms,gpu_gib,screen_score,screen_score_se,date
+speedab-seele-alpha-57-c8192-a16-1,seele-1.0-3.3B,speed A/B,8192,NVIDIA A16 (one GPU),500,6.5,153.9,295.1,3.223,59.81,2.63,2026-11-05
+speedab-jeffan4b-q8-c8192-a16-1,Jeffan-4B-2010 Q8_0,speed A/B,8192,NVIDIA A16 (one GPU),500,4.7,211.8,404.3,5.745,63.08,2.58,2026-11-05
+speedab-seele-alpha-57-c8192-a16-2,seele-1.0-3.3B,speed A/B,8192,NVIDIA A16 (one GPU),500,6.5,154.2,295.8,3.223,59.81,2.63,2026-11-05
+speedab-jeffan4b-q8-c8192-a16-2,Jeffan-4B-2010 Q8_0,speed A/B,8192,NVIDIA A16 (one GPU),500,4.7,211.8,405.0,5.745,63.08,2.58,2026-11-05
+relcheck-seele-1.0-3.3B-c8192-a16,seele-1.0-3.3B,"release file, causal flag in the GGUF, no --override-kv",8192,NVIDIA A16 (one GPU),500,6.5,154.0,295.0,3.223,59.81,2.63,2026-11-05

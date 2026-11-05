@@ -1,0 +1,318 @@
+tensor	ggml_type	ne	n_params	n_bytes	group	data_sha256
+output_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	e5e6e9612623633e59ac0e9a8847079dc1342ab73b1054c6e0b502a3b44ade00
+token_embd.weight	Q4_K	2560x248320	635699200	357580800	token_embd (tied output head)	245bcaa5f3831f437e48db770b67b1ca2ea125373e54c0df15dc8ebef5ceb253
+blk.0.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	98ca4cb1446dc3fd7a213341eee885eaf463fea06b6d6a20caec56bf9aed48e0
+blk.0.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	fd26aeb9265ba4588eca258e4c7fb27d2b82198eef72bbca4d8d46136b90c104
+blk.0.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	070a22039b74cbe7144316373a7f22499dff3dfc9a245de2c0e23773345c4191
+blk.0.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	841a1b820e9cce2a80d4bce3cb225a9e4f7b87261b65b2e5316b7250901d2b6b
+blk.0.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	17b07815cb765d83d639370030ee37a71e5950fd9e2e73f4170a30d66f3e2212
+blk.0.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	2fd1446cf0afd54496117268286235bb77b167ca8ccfaea4019a979bbe31a4ae
+blk.0.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	37ec1c3c62e961a58c845390743988f5e35a33aaa667a3fec5e60c43d01508ee
+blk.0.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	9d3fe9c2ddd97e58d62c12f113d62456850618bbd9117d584064bf23eaa0c9e7
+blk.0.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	3cda6ba61fcf13ca2d98f8f922bc300f53228f4e1bbd710806b61ef22b8b96e2
+blk.0.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	035e91d84860cb5989a6caccc0bd2c929f730d739b31681a0d01624653754902
+blk.0.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	e0ff35e774d276fa65d1ccde5e6667345ed74da153f906d27b688fda88f155cd
+blk.0.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	54314db72054ddcf664d15dd95ac238b9fac69e07d593b2d2531267e9edadaee
+blk.0.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	002b93ce1e2744fb62e62bd8b840687e21ee752f44b4ef175af9ba6c883161bb
+blk.0.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	af62927d5b338298b53386f857a2b1ffd97d4bb234fe1b800cd449a56865bea9
+blk.1.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	fc691e493fb51a300bfdb6739f3cdfd7a6b293ff6d57e12803325f58fbd08b71
+blk.1.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	665a489b9038a13868fb2603e81e564ab2fbf126af95168f051b00745fee0598
+blk.1.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	6bc40406c885e9efdf30e51907395182f9fc85147f7f325bedb17f9d18e9d03f
+blk.1.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	baa14d90f5509c912928b3c93f26ef193034e1bedd410c9e205a3a685a72a289
+blk.1.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	7d614a5c60d3d8572f7f315d7d361f40a3558b30048c526b47ebbb5da39111bf
+blk.1.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	3a741961dd90b3591ec8ccba5113aee388a0f332a96c50fdb6db16e43d229641
+blk.1.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	ef7cce23674a63e08af4effbad8a26288dd1d8859f9ec9d2b702e5609c9bbad1
+blk.1.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	231e604c093b8b37dc898f0d1f43ddfb73a0697f7ea058bf314883066eac1f63
+blk.1.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	662e3ad727a1dfdd13acaf94b4c5898079c5c4d96413b9b9742becbb284fe2a5
+blk.1.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	c5038e67f195e6e9c39babb7f39654f3815164edc48c19d402e392a2af7db91f
+blk.1.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	df4c2d167056c9b48c46160c0a06e6ff9449fabbb9ca608d9e905c6a505f7c20
+blk.1.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	9b70354029a5dfcc71025441df1bf00c0e9818aa693de2f781f99716544dfd83
+blk.1.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	dfde65a91d5efa084c717a41093aea4270d73d539a3ef1642d35acbe1e9c21ce
+blk.1.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	8315de7a2d37ca48ce2df74eb392dc4b0ea3886fcb08a2e5f553cb782ea50780
+blk.2.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	0b7d23d520086ac9c328ee809483582cdfe1848d1749d6befe97525725e9dabd
+blk.2.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	003abd5396f4152a32c2c1484d26e18e61fed8d89debe567dc547852ce26d445
+blk.2.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	4d541da7ac1bc1f1b89f19ea165327e41a0c81e62cf2887d09cc2dbe6e4d1bb7
+blk.2.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	f8288994991500dc45ef8d5ae4dc58973c5785b9c47ba73366420e40efaf85fe
+blk.2.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	ce7d46d4ea5808dc10857d6c44407fd031c4cc36cec5fc72efbffc55eaf6e1ee
+blk.2.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	4aa14662e5d1861f76629299da8aefec6b0e380a0fc6c930c16228879b8c7590
+blk.2.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	2bcbb94f806b8dfbff9a77d7f927597e82c93e9282fadfd2741cc61e9b15a945
+blk.2.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	ba461eeae52695caec5c7c8c3c552e35d015605268ed341812f211e163c8f7a7
+blk.2.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	58237bed7c9261743966694e9bb625ee9bef5d1c2346cb07fcc15e8988a7171c
+blk.2.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	5622a8aec904779d80399c44f5dbe160674c0cfd3cfbafbb491ce144be255785
+blk.2.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	b92756fef44338702be9fe7af502897e89deca49cb38ae23d16a50d19fc15fce
+blk.2.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	cb205f31db88bb263fc428349d720bb88f1d9e358df588bf064071a8b3a861e5
+blk.2.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	6b7019f420c8be7dfe42579f1f11c871a1ca614414446c2e5c13a9cb04aedd2f
+blk.2.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	7f7a1d8ba8b53f64b257c485233949acbf71632d9a2df5b2f99a9795ff1cbe66
+blk.3.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	dc602e8ea04a8bfdbe1658ed048d99705f1d41ce5da20c125f0b8db16a1584a3
+blk.3.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	2d487f6ae92b7a018d239e7d8afe27d426762c683eef43a783dddf29bbf1cc8f
+blk.3.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	1134763584384d27d16195ce79d5ae0ad2f06ec40ca34eae16868305c2c10ff1
+blk.3.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	0873c80ca02f20b2511e937d1daefeb05cb888ae173521ac990b8123a4057a3e
+blk.3.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	1e58a10c0e0d0e213dab21f8db29807c1f8390f51dd76f3f47e836c4321ac994
+blk.3.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	15de09ec10a39930e160299238ce668172049d6c735103644efc5e2318ecd3de
+blk.3.attn_v.weight	Q6_K	2560x1024	2621440	2150400	full attention q/k/v/output	bea58436e00dfe0b3dd5a8b0850b6203430995b34eefdf99f39c35ac0e81631f
+blk.3.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	9c7b9ccf1bf9e274d6444d65dbef0af91e36a35fa2e0b9147c322336f75ba771
+blk.3.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	a5d9769949469dec52f02aedde097bcd7da9282304c9da3ecaf323c3e6d9421b
+blk.3.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	899e7275d75aa72f4ae3c4e126fdb838c4f536131de5282e00c8e9921a1cb1af
+blk.3.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	4d8c23d3623ae2826580181b1ed97fd7551f569efcadaa42d43279bcfc08386f
+blk.4.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	77c1834919104742a835bdbca6e4df5d45936234ba27859674e10a32351359b5
+blk.4.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a1018b98118d785aac51d57c0fa4e68617e43bdf34db32d9c09c7e67c5058342
+blk.4.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	78e03220d24219bbf7eabe1a4621c6dbeec1f69a264dfe8031ae170b2202693d
+blk.4.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	b81717ade104341a29273d6a57545137fa3354acb4fe5f21767c64873d643e82
+blk.4.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	10ce09049cb1e65f05933b96b878ad7539e0253308601f03f1c144f3e6f9f5a0
+blk.4.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	7fc15d6d38c8750ae539e841a97bdbd1850c7df4939cae39496376a41187e960
+blk.4.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a91cf8c7894a08b6f13ddce2e5c178aae22754e4c967194ed763963913713c30
+blk.4.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	c3ecbe28111b8b61c22b4f941985faa7e6a1b708ecbef65a30a2cfdafc0217a7
+blk.4.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	c101710f39e426b4c33cca5c830eeee2fef97f2d0fded1c39b63987e89e7044f
+blk.4.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	934497100475a41c97cad12ac9b315a011c91599873e3e344f9ce95b5a73e29f
+blk.4.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	68d62651e2149906a999306c37a62966f8bc95b6b90b3890af95b6d81262b208
+blk.4.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	0bb8b4f0678d74d1c501345e1263baa987a009a630a974d78ade2a02aad6f51c
+blk.4.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	81d31ccc92a14a7976ae38c71789e32d23286eaa6bcda841159089131f5e0fa8
+blk.4.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	4b63e32133c08012930af037190648f158205e8cdfeaad169d8d82672a5f7dfc
+blk.5.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	183f804b195d5b94bdc7bdc1f1b0475ed89c011f20e9d12d89ed8b883b37dbd0
+blk.5.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	0cb0253ec69806d260fa0dbf012d76263d3b73e3c9ba1ce52c2765c6851143f2
+blk.5.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	a7438027bbc827d2fcc7574eb84bc42c7a6a0b8eba03d0fca8e851eaf32554cd
+blk.5.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	9f36e25f24b3fac8e790ac0c03b9e9ac6e9658df85ac87391023fe347f6a6bce
+blk.5.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	b0d628a296effb42e4e7044d1174f1a52d8da8c578dd2d5e3feb16b978043d7b
+blk.5.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	3a32fa323dab1e6e75243516df99e65266904974eb77d055e5355ef3479088e2
+blk.5.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	88a8c1f43b0f2d11466011f5c5c3010014bedc5207980a98a5f0406ea6cdfa3f
+blk.5.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	803925a17a522ea1ab40bcdf61a1ee0439cf4bc61a8601e12d81a564a0d4ed52
+blk.5.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	2808bf604be852e21ff17eec7dce01575af9211d72e3189dbec8289ed8571502
+blk.5.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	2a7cf8391d44f05830982e1213305cb8a5fb61f5db3e3b0b2b2d534c29a5810f
+blk.5.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	b0087eba64b9a28db52a0ebb5c9c9a77ec77da6ff15bc9c44972fafd13714545
+blk.5.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	52a748531d1c87cd6169197f05f32ac6a2358f7f2e4bdc7882efca677ce4ee03
+blk.5.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	5bfd7596570604c0fdbfd356d4b9488004a168118314c526d551ba046d845dfa
+blk.5.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	4c3406d6688fdf8713ba46ffeae4cc4266cf3e23b748221bc96973048eac8799
+blk.6.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	778d12db6b74bfcf90a71fc0d58ff7256b42d9e15e47bbc61dbe0a83e9c2c77b
+blk.6.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	2fff4f7dff6ac4b88a8636286d9f231273ca759b2b397215798b158bc1cc80a8
+blk.6.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	1e6252c118cd74960d49ae1fa5f4a530fc3cc868fae2deb5fb4477f40aad67f5
+blk.6.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	c83ebc55f7be5c628c7a6d3c5297d2229a8e914941dabb62402389f28d92a2df
+blk.6.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	cf7e4f285548f6ff635cc090709365b51abb4cc582e956556772be4b4f4035a9
+blk.6.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	2a9b06585d55dc6a448d0e9609e7efcedbfcfc197d5428f5f138120d72d29eb0
+blk.6.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	616ca3fab9a7fa37efeb78fd0efabbfb4d4edab1b62ffb893bd90f4f91f6aa2a
+blk.6.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	7b0085f339ede8d754d6c4a893628bf1a23d950db22f251c451c1e42e00ad031
+blk.6.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	e214fcc0d63232e5f9ddfa92f65b8ef49b1874df902a54f80bf496f92327019d
+blk.6.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	f47f5c1e961e967d1806ce6e095bfa1391fcc1c0d06b8e5bc771038e4e8a0696
+blk.6.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	7850a25874335f40411982154b1681de924fc81de532919edfe1e869acce7e75
+blk.6.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	e9a1867f6379610799503acc103ad95ec91a5538da060f3b767b17d956c6ff63
+blk.6.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	05bc955b82808ab2d70a7ef521411bc0b99f0e5cbba2d39d2765c9bb76c097a4
+blk.6.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	a74e169c81d1159b534716fe221c93d569865319a872a8c5d87e15c593834fc2
+blk.7.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	faec9a26d9455d2e28fe753716e1700155272ba7eabe7f41bdd01b4ac7080377
+blk.7.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	bc801ed61f7590bef0e72668439589670c9996702a278a8daff871c0286b986b
+blk.7.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	1e5788f7a8bf90587dbf58cb989a4249aece525f6336071c65e3ced16370651c
+blk.7.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	340dfa217d91a9ed80c37b936e5dc216d5ac6366bf63aa3d01ed12708fbe4a79
+blk.7.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	4b445480195f576e5fed5a0e0735f41e7453d615dd62ebd110e7b1676930fd08
+blk.7.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	681514ca654c567cb2792842753caf8f4d01612fc8351c1f9bf2812582433534
+blk.7.attn_v.weight	Q6_K	2560x1024	2621440	2150400	full attention q/k/v/output	f55ddfc21c8bdc341f93ea2ac9473ac7fad1f15a871049f10fd92ec50de9899d
+blk.7.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	7a4f588a60a9af2a4106fdf67b1db7214b16bd55306c5c1e315b339e14a52e02
+blk.7.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	35e39806464601623a59a274f47c9c0692cc3546f1621219e020d23f57238ec3
+blk.7.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	b0ddd6b9e1d3f4504da1d96606cc7330930be94c5ff6dca6e616b4a6b6d4ac93
+blk.7.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	0627dee7ae359a91be44b163923a56878cf4df653e8c757181e6da1211a4be85
+blk.8.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	fb347ed2ea07c7c1ab6719880fc09bdd01731201a41008c03e6c3fcff15f6b57
+blk.8.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	30d5ddc0ab66b90c570c7bf1c4f4cd4973674ab3102730bb36cebababa3eb9c8
+blk.8.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	e6724f7dc3fda0f9a4e137dc1b4d0876554b6f11ca1e5f1f9aec1859db95ca12
+blk.8.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	218551c31ca91595f50b9058876b341382ad7df05f6049e2c6042911a0c69800
+blk.8.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	ed2d739468b5b9e26a941c06d93ef7f2bf177f4540b1327479f1096613834dc0
+blk.8.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	32664626ef047222ebb287f0c3421c66b95454435402da4bc4818231257a9495
+blk.8.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	f6670afdffeb2dc8ac8482a7c256598d4e3441ecbe6ea79a581897958914a4df
+blk.8.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	ed2b08f233b2bc285a9844ba2367b0c0f7d83b1fb0c7f0917e8bc2edf92b7902
+blk.8.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	2e14e41644fc4c0d1fb02f81acc0c1670a20893132214b1a1e36423c4c4e5667
+blk.8.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	04104bc22f5807dad4a51e23d74b921fcd875be51748f0f2d2ef7d24dcae5d21
+blk.8.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	934fa15192bf64228587a2d8e41b134ab44254b30b87826ed340f0e1c6219fcb
+blk.8.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	c5b8830962f7ace3d30cbaa7440ab27fd31605749e7148f221bd0e58d420a6aa
+blk.8.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	48c0f468b37301e7d45a4cc1fb783697404847b82bfb1cb0cc24d5d18268ac2a
+blk.8.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	1ebf5bdc4a7f53731130c72856e7cf067c4d9391d91d6c118c6f72d7171ed5ef
+blk.9.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	2c72b4339b7c76d21095bdde3ad0d46ac011f9a88d019c98a32dd97ce9470346
+blk.9.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	d0aef654676c5d736c72d0bde1b3f2860a274fe3a47b62633ec9ccfbf9a230b1
+blk.9.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	86d806cc1dbb1e8fcecd8408c3cbd410482f4b00629a9b34ed5003f7fa3887ed
+blk.9.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	5fce31dbdcb3d39d9c8cf354fc1e95c76407f69b9017a277bc9a73559cf16b58
+blk.9.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	a0e63a0b3131d4d8826c253546deec155332aca7d3dc348bbb4035b355f4ec7a
+blk.9.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	39cd2179cd5d59d52cc7c0f79359309c4874291e4406aaa274a73aefe90bc130
+blk.9.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	14c0a91e397aaac7c76ef203ae4073efa10bee76482ef5d6fcb27ea26c298dd1
+blk.9.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	79cdbfdca11a80a1bd2812b2b5d9698adfc4e6c74d0e1514c108875263ab818f
+blk.9.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	55775931008f31e598b2264d678c236fa3162f80b55eb93d5cc014ed83c17562
+blk.9.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	63dc8ec30a6c2f0de984acbe95380c309a1ff0adf4b7ea391a5204cb6edfda6e
+blk.9.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	d41f4c7e918fd10f2785c792deac50a4ea4631a523d874ec45a07fa97dbe0edc
+blk.9.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	fc4ae4f2403b82363a99999cef71ba33eec348d4b29b2ac0e5e5e8bda999dd71
+blk.9.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	de2e513e2a1aed388bd6e43e2313437c200f50ba09dcef34678bb9f5ff65d8c8
+blk.9.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	8e1b642303106c38d1d4c6a71bf4c55907f432fa267d9a3dcb17c1ea1ea074c9
+blk.10.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	fad7d152bb85336519f7055af1f021efcc17ef55ff25f88922e4c7d1c1098831
+blk.10.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a4e5f732ec019e1c3ae2d96e8f4176dda5ca6c64e15590499367e4bef29f6f20
+blk.10.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	aa60360e06b6ee889a69cb26ba3bdc1556353e55203cfb3c7ec2ae94e36283e7
+blk.10.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	b9c7c1088ad7332756d50c735cd769b08033a18aabce7419e8e43a8328f24f71
+blk.10.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	6e8bace54035cbb92176ca7c89023f237158e01261bdbd4258d2cf519a267667
+blk.10.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	ca651b32439e357041d19a075dd64212a13262f5902d6788e31fe4a1a7f8cc4f
+blk.10.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	34a6ac4c0252a41892864d27ed51538bb0510d46a6ee413eb09e811788028f5d
+blk.10.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	ae6420742322b1fcb9be11cc39796ea52b4159a51e16d7457f4ada7e857e2f93
+blk.10.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	dffd87b77b9cd9e57f625901abf902b3d3c5ed7d15b319337230bea53da482be
+blk.10.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	03646722d68c6302c823253833aee082267bf264a292cb8c770451df349d8d86
+blk.10.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	18b134e80f65d47966ea50560ef7ba7783d26f5131a58fa8180bea1af398867b
+blk.10.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	115ea9a6370e3149ff2b8a2c5c28bf5ddfadb8fc7aff4a7211440c3310dfd30d
+blk.10.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	96df45fadff6d4a35ab1d968695643cd3bb6b9dfd86b37b247d252805006c9b6
+blk.10.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	28afbb49b029a3bcfd2fe2917b3cbeb3c0623b0ad1810b1b262fc471e4c45cd3
+blk.11.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	95341e3778f4ee05dba85d35652b6ef76b2142334850301f3905572a4a92e2fe
+blk.11.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	d1e2e1d4963827412f4e318d3618581df47b152ba9a9381ce2f496bf338e4e1a
+blk.11.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	be0ae767c5f057a63ccd08d250a793e154f25c1be95b8cbb6bed699763cb935a
+blk.11.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	4edf3439fa5341c712ef9841b31dc27e0f8510738e86e07ffaf80d4a9f2e72fc
+blk.11.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	331ef23f18a14cb17525dca06e9723fe6244815fce4606a829e7d704e0026c57
+blk.11.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	1a945902028f690df356549c8ac7bf53c23dc3f8a2d29a56145e80f43bbcb435
+blk.11.attn_v.weight	Q6_K	2560x1024	2621440	2150400	full attention q/k/v/output	54d51388496c82de55a8b65bbd6ec04a2fe4e1287d66ef4ca4bea7adc065d8e8
+blk.11.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	1b92a9f83adb5f436e55352d4789f225ea53981cf2f6f811db3cd8832109584b
+blk.11.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	8a480f3def0bc5788dd67f708b296bba8c23b5ba3c1a5802b6784de549e22c7a
+blk.11.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	cef90145879935386e9d4151c3fc993110a0f1032a398cc1c0c61c2d10983fe1
+blk.11.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	c7f5b1c8d0607ca912e88b2ef66300e4290611d7620a8540f51a8c5d44e4fe0a
+blk.12.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	9ad807d52bd8639c646b001f5c8b5c6057a204e002cebc43874de926027e0ff4
+blk.12.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	acfbb4f19c43213d91ea3051601f37b4685e9ba4cf5dd48a0251fa72448b3134
+blk.12.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	cc132a1f2376e2d9fe2b83fad6ef24c148af568bcf54702bd9442fff42a1f9e9
+blk.12.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	d2e445153804ff75bdade4cd7d0667a0d9b4242924764c6d3a10af1cf53c8237
+blk.12.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	d000587bf44e6427a7873f609f28c6f19b9443f53b662c35d83f79d4b8c1ff5e
+blk.12.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	4daeada36e54218f5bdaa0574e3959938aec67ba32d11b89702aae96a4a3843e
+blk.12.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	d22882ccd513f8fbcfc664eb07e1876999d6a5d1503d616b1499f74ab5d51177
+blk.12.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	aa5821c826695e5b79a91451184735b50d5495348485bf8e347edd051d2671ce
+blk.12.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	8deff1ce08609dc15082a1dc7ef96be36e12043468831223f290c1177997ccef
+blk.12.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	32a6cd30f92d4f5635e612d56e3b361ecddcc268436525467e1a47e8cfbfec2f
+blk.12.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	e8e4f69029a15ee42a793a5c7557d54de961ac976fb7ec3355ca628ebef9ae78
+blk.12.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	381b181cb6fb0e9923190baf8b33217ad30f4784221f39885d5b75c1784ab91b
+blk.12.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	a0296eaceb04b0168be155ecaca68a5b43e7301698aa6a11c3e5a76ace26d9e9
+blk.12.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	8e613e1d8f3a3edf41b976f845e67323acc1986452c1f93625aff688f5527790
+blk.13.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	0ee6dbdf50c4f8c61e309f36fb2bd5ebb797d8b42548541cf2cfe9e48cd4d977
+blk.13.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	23eddf771d9a3194a966ae907ae2061fb2dc640330cd8bc4e2d2d187ec9b81cd
+blk.13.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	472e675f6599a06d638cb1035b9553dc32026cf1bc10ba7a690a93213f64c680
+blk.13.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	3510e4f7aeecfcd8d754cd96b98649517d8f9ae155ad78ba51c1f96e2c71eeaf
+blk.13.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	4886eeea6489f1f1b15dee9fac6c4fe4055c364014832bfa675df47103c1533e
+blk.13.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	683ecbe6293aa8b0381870955c0a1240ef187590cb386f0444554abb458d32ac
+blk.13.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	58a5170a25d1344bf12b1d693729b6ed489d7e66555005e1035aaee33e714a4c
+blk.13.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	1a4e65d2881c513699c812f6e1e195b9dbe618d77a44a2a45f7e0b4ca65a0e4b
+blk.13.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	40ecef07e7a9d7eae9e6f9bbbc10057853cf67225b0007487f380de4b41ee66a
+blk.13.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	2601962c1406b87b442cd20f95d1c54fe18031c93065c8ac6a635af206048feb
+blk.13.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	990ce14a0b7bbf168c74f0207da18965c2d6126edc3a7ddcb1c3ec934e91662e
+blk.13.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	90aeb10beb64f50b564398dbf8559fee00fd1c165b026a5387ebc1a1dce4ac0f
+blk.13.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	6f98e416b50284026f22b8d0efc752c80562e51dbe3426c1a5f8c777f11e3f79
+blk.13.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	766d80952e66216bbe1805e47840ee887148d87b79bbc54c9e929167a2e679f6
+blk.14.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	c87de6b4deaca9446889882cb9f054c1b820f452765bc951fb8d21673480748a
+blk.14.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	9868808e973a85ca99951b9208d76455f45ebfe99f08709242c1d7bc279b79cd
+blk.14.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	f2d216d157555ee825c411108d50ad153eeb0e99dab0cd7a0cb01f10de3b0a80
+blk.14.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	cfb4a4058d13d17a8fc05393df274dfefea2c69365473ce934f5a96dbed1fcf1
+blk.14.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	65e0be0b70e1427ac260bc9e8cb3ad788f748c7609824edd52f4431770524db2
+blk.14.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	29f725e73729b66d1bc1d1305df2ac24e0223ea4315979d05e143e2c01489e05
+blk.14.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	1fce4c774316a36a81d34aeaed50e0a7068c8abe8fa82eafcacc39a5c3eafef2
+blk.14.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	90b86dcf6958d0682a7cc8f8ec4c9d328cda0a619e9bb496add4a6fcbf5615e8
+blk.14.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	8f87d9f31918f0914bdd0adec48b4bdfe3d53858f8ffe3f267ba1560954337bf
+blk.14.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	ab47ae20dbd2006318d0a802f7ac14c9b9efd900c0685eafc10ad8889d1c1fb0
+blk.14.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	f9269b410f1e9cb596c76e474ef5ed7b066d5ff6d4748ebc0700236970a4534b
+blk.14.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	c5720b6e7bb3745c5fe57950bdc81c104120afca6139704ca6b92c270b634058
+blk.14.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	bfac0720e4a06d4be7e2802e30e87c4b88b8f6a28090590c61c35bb2aadd9e3a
+blk.14.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	e3faa532b079f75071bc4db54faa58e0eed9bdd46fdb8495b288b42f2a4c98d3
+blk.15.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	e2fc983fa329b9ca3ae8ea45b1dfc59f39d858cda5fdc60cd80b9f25e1d7d3d9
+blk.15.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	2ccc47ceecdd6fbe251685f238b57cc646ca155e087f065f779143658cebf23c
+blk.15.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	ee94f3d08aa0223de7ae93621bbcefed2be35371139070655fb49b74b336e6bb
+blk.15.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	afd41fcb555123bb097745acd3071a0291df4bcf3dbc6e1f4cc55dd26f4aea48
+blk.15.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	19dea91577abbd3d693dd24a70a52192e7d6f9c6a20ff96ed5970f0ac4ae4291
+blk.15.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	4045d64c7b191687132f0ec5078c9ae8967e9ce8ae18adbf8a45536b1cd93ecf
+blk.15.attn_v.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	3c0ee0693cfbc5357ca65f0871adf203e47ca645de36260ae6a0bf0d8eb0dad5
+blk.15.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	aa978051807a21337424128de1f81c60f27ab5cd1bebc30c364403d231baad69
+blk.15.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	716024b8a573d4019e2c2bd6b43f1099c8ac6587d3e65acd897f4a145a7b3df2
+blk.15.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	1092f003bb1b822fa7f333d311f7d80a8857826ec6d734f9142084dcbf20a9f2
+blk.15.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	b1e8777c58ba295c7d4ac2938642fab4dc70a0c517e9ad83460aaf147d5ee4ad
+blk.16.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	d58e03b09a0c4eace8327c0b375b5c9487089c6d5d22845debbbedf2d8c65209
+blk.16.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	226178e65498b2620487040266888702337aae5b6222a5786a1e052403654ba1
+blk.16.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	f8f849575cc1eb5665bf3712dd8c0e975c944debec76f4887324ef2ad8f45053
+blk.16.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	cd3188a8d98edab9bae21732d2cb726e9d1bf968fbada7e15f574f04127bfdc3
+blk.16.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	2dfc260e22728acfd93894b92ab6f5aaee0a169d7acf294fdf4baea7c411a2b5
+blk.16.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	3655542905886a3770379ab23f79dc771f9706ee7344cb200e898ad91e87cbcd
+blk.16.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	16fa151747db1d9cc2bea9210c26fc9d2003607b5ec9842b9890147cf5a4bd05
+blk.16.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	c74c00061af8457a0b0b80ab371334f9136908042c74d54827f2875675336127
+blk.16.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	280bdc5821ec623a8d023f1885e64324a9d08c09b92d988c60e760047cba1159
+blk.16.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	98cd1ae4022560926c718b491a960660c54c89de023c8c9857c29146fa46b911
+blk.16.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	5c30b1e88bb4c2a853cfca4476a620a764cd57211b5f7ca3c3d3679d2158c63f
+blk.16.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	bf1c70e4ac2aab638e224001b2b03b2df39ed8a717ab060f3c1ff9ef4598b1f6
+blk.16.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	945f03a689e6fd6fdb4bfb58c6efd85ab29a847864801bf79806cdd95fe51116
+blk.16.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	014058ee3249e3a65546507879c59ecf61946ef912dbb75cc8629ddc65f878a5
+blk.17.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	06f6f2ffceeb4adc431ca15879678d3aafb5a00b093b39486eb4a5a706a572c0
+blk.17.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	8cb40b80b71070ad17cd6aab303841937917375ed323625aee406cb12bbe84b8
+blk.17.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	aa055bb7833f6a24b99591836dbfdea1a551c2c9fad160897c0d80d3fab9733e
+blk.17.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	5b8c283295f8b8b60aee4e7dc8e9c55d1b8e39657ea288328dba0d41a830a935
+blk.17.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	efe4858726545a8df3f90a0f4fcc0539ae6ee0e47a499419570952f3e7ac9159
+blk.17.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	151512a526bfdca5c158eb89b60d901397db2e40899087b993e5c922abbe095e
+blk.17.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	c1123579c697d6afb6c065afd1bf9e2022b2e42e47c852b2f73b00e0d54146b2
+blk.17.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	8ea4a9de21353f72d7363a3384dff69a5e25eadc2c0677b86a01908dad1b546f
+blk.17.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	92ee525c6670d7d2738986f9a24a600f17192e86569689b7c1cbda523c4154b0
+blk.17.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	7f7be3b9561965dca5f79478a639b6a0ac34fb3d79562cb4cd45f86c643526f8
+blk.17.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	5ef25853950031e8957ba4ea3570a6ea3c4e48f1277672b7a449534ee5bdcdb2
+blk.17.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	5055a1e9ca5d0c055481932e5f2f747b263767a1d62164730018546e170fef13
+blk.17.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	f52c623d75423c82ee85cd55cd503aced8849ca97599f0b246c0867a37f8a49a
+blk.17.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	91e0e04d48c24e8086fede640a43fa75c46ac9ae075de2d3feeb15d98e6ac030
+blk.18.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	aaaf6e56c42768a3dd209d5873b63233f9b3f324062c53bdc0bb52dd57a16c85
+blk.18.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a74e36f671b2585c72b947a5b8e3b8be1aed3cf122dacfb9fe7c239fa5896641
+blk.18.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	560414f002f024ba6f2190ef7b05ce4f3b1f6cd5e1cd91dbae995eceb71c45a2
+blk.18.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	e52e559248b595103485cbb3e3f10639a8d1b623b1c61e0008e0ebbb41f56dd5
+blk.18.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	d72c6e37d216480a2a7da2f1f9a85269ab21ace1cf656d80ca8c7e6b3d34fcfa
+blk.18.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	af9e92b840f570ca675063cf8f5e8623f20711bb57dbfe2aa7fb6b7def845a2d
+blk.18.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	85ecce7836038b4eb6dd028debf00fd69b4afecc5394d0a87329b36893a67b1b
+blk.18.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	ced7ddd590b78e15f9164074076a6663947d8d9114a67950b175736b62010753
+blk.18.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	e4a3fba43d0a8408116b2dec6296b3e51e9f89bc9f683be5d85ae0e21a6222c3
+blk.18.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	bd79156ab039d3c1270ad52d16dee726b4a695db25cffbcadcd4bddf94d5c19f
+blk.18.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	f5526bd6f70f2faa83abd7b689d75d72a683d048ea0d1a24444fbb8446a0b3de
+blk.18.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	11d9123ab1fcc7d43005c59723d3ec0a647fa075c23d67bb772498dc6e994f7b
+blk.18.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	cd9604e9fe8016bb92f6f0d6a232a8ad13791ce5eaf6e0a45a8318ecee1f4a72
+blk.18.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	a1e95b399e0a0846d7a97a37b310eecf13bdb4f43455316b52566b4f19f59af6
+blk.19.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	a8d6e526eea83df2a21ab689e76073e94a676b64945d1686232e214ce0967564
+blk.19.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	9e651c5d6e824b72710ecafe5ba7dd91c7e14eadc22af3ea9496ca5f2a9a1ce0
+blk.19.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	69dc49fd9f6c500ee914e37652d8feb0a089256b9e5145ea21dbd49d3c766636
+blk.19.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	7b181ca66ba94382f265df54bd4cc7edff9bfa57963364a4511eb03fa0a04169
+blk.19.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	5a50e113c8c7457d03049f8a63f661492f1384feb0fafdd64da07a805154b684
+blk.19.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	24f6da156d3366d4dc151077ed14b0dcd7ab79d8fec67ee8d3c447aef1f5a68f
+blk.19.attn_v.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	d4dbf1071b6e04d860d5cfb13dda07876d4d684b5a78ad0cafef86c126d068a1
+blk.19.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	ec44ea5064264576e0174622b6c9b1b0872bf4398a44f80244831c5f38987d52
+blk.19.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	1f3fb32de4dc3e07db07d7e0403971fb1aa4e05a2cb033849a5a38a9b15a40f0
+blk.19.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	1069988a08bd1b3126948669b043d9e4ccc00a75fb451403c1c652dc3e6486ec
+blk.19.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	151cf4aff43bee68bd3190f86643419a9f7c37022c30412fb76cff8f8ca830d1
+blk.20.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	47d91f883dbbdd44253984a388244861150612015d2b4c10731071858487f6c2
+blk.20.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	ffec60a5adc7e5b783a6910106cdf0941f895b8e5277f38c4b96efff91220f7e
+blk.20.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	c12e7b50ea0ddb2eae9764c7f1d8105782ae3522e27a96dd4535d6de512864ca
+blk.20.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	91348b2521434562afc9227bf12f43bd38b6c23810558b39498422bea7e831d6
+blk.20.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	59eab7bf0bf6d4a050371c3d4b1beb2000816f7995c2af22c1bc3a293640574d
+blk.20.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	70308625ad5d0f7c54c5f3b59b42abaa6163953d5b5f8fc924e44547517107bd
+blk.20.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a639f4a0aef78283d43bbad8935aee1e5b555508ecc790cca8180188e76d9e39
+blk.20.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	8b00bc20e20889ad0b5f78e1fadd1e6061d0aaffd67461678f8f30bfefb4d1ed
+blk.20.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	69be321dbc28416cc230478fb84c52810e5bb785da161e59b69b71104106a5fe
+blk.20.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	6530cd98f56fe842f1f87cb97f0ade93d7581db2c5cec4fde5034f466d89127d
+blk.20.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	845b821eb5619248f82d8f0d28914a0a5277e25a91bd972ea6fa0a85c2e19820
+blk.20.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	a2f65c26328c91ad8a04ed2322f86e1442ff3e6cf696cb7516700b05d53434ef
+blk.20.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	0fdfd359969062a7d892756cfeef68e8337467b8cfcd2f872302546d7627312e
+blk.20.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	1f763d23bb4f270a52d59edf898baa3a262f880f5e9b8c02f516eab7885131f3
+blk.21.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	ff7df75a75ecacdfffd2b4d61556533462cd8e49f80d37f4cbe243d6f9f289de
+blk.21.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	cc213b2925abd6c722f673d0664de0a4b23cd4f162c6bcb065552f0c24e4e95f
+blk.21.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	75a63a338d1fbce656b9293c0c741b5bc3aa5224c9d279615c0475cfb4860f40
+blk.21.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	8414d3a112d5cc78376b7335221b91db338e5f7dbab4d9d8f0f2d1646639b386
+blk.21.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	b09a5e6ac76075a64afbaf82df6968343ef924e780824b60658a26538a95d35d
+blk.21.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	83da86c8f828de2e8c72607c82174ff8794bf8fdd59ee3d4fe01bb42f20dfbc7
+blk.21.attn_v.weight	Q6_K	2560x1024	2621440	2150400	full attention q/k/v/output	1354eb6069d7648f87325b98c2a693b7511d2bcd9d8f3de5f0c56ebaced5e5fd
+blk.21.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	a9fb884d2c80da6b5abc3e0272f89f747f0095f052a4c4237da7b3d7c11dc82f
+blk.21.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	30a8fc226485a3bd890d2f44ad5ef49646b4efe64d1f26c8ec560cd5d3a86997
+blk.21.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	d40dba847b6b9e6f85ea19dd330acd548573e83e62376c29db50b73170245001
+blk.21.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	3752e3bb9b2596cc4e7e8268d218e13ea78eeb29be56eda6507bcaba372f4878
+blk.22.attn_gate.weight	Q4_K	2560x4096	10485760	5898240	DeltaNet gate/out/alpha/beta	c1497aca983aa87d89c6774208bb75110b04647b0778d1c8923399df2d6a2962
+blk.22.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	a9209bc4b20f1d375772348c211840bbaf0c6057e2f9f528c81486871e46ccd2
+blk.22.attn_qkv.weight	Q4_K	2560x8192	20971520	11796480	attn_qkv (DeltaNet in-projection)	92a490ebab54510f8923050ce9c5074dec107a89f82203db476047a2b2f87ff9
+blk.22.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	0d271a90f27690e1a80fe7a8295d570b10bfcce9042194fee0923b59dfcef350
+blk.22.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	cf4ab627b79ca32e9216a6b9e5d021e6e30f3fad26670a7993fe582e116e7264
+blk.22.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	7f603c4b00bd74b5b107c9e4ae76a5c5399b743e3cac1230c96a142f32eca306
+blk.22.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	5abf3f5c4ab5fa1c75d61a9a4ff80daef091a2256670cb14c6f71408c30b2c9f
+blk.22.ssm_a	F32	32	32	128	f32 norms, conv, A, dt	e34494bb0db23fcabd46de296c452d40810eeec127a66acd90586e73109d2dfd
+blk.22.ssm_alpha.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	8d7befed028582ad835a4857e29c90277f2c11356b4c8e76cf2da4310cd11e81
+blk.22.ssm_beta.weight	Q4_K	2560x32	81920	46080	DeltaNet gate/out/alpha/beta	8845b3b31e29076a331822cf0ced24c80e7474892254ad14eee1da04e217f0a4
+blk.22.ssm_conv1d.weight	F32	4x8192	32768	131072	f32 norms, conv, A, dt	197a09cdbf8de96ded98d714e90fddbb700f734ff428940496e92ef5488f8c9e
+blk.22.ssm_dt.bias	F32	32	32	128	f32 norms, conv, A, dt	b76e0e4e8ce0c82964817bd55b955b43ce70372307f9ddd6ae68765256d3cc17
+blk.22.ssm_norm.weight	F32	128	128	512	f32 norms, conv, A, dt	09c8b8801df5bf30b5b05157ea1b9e8b773c0107bd95de7271d128cb6ccfb1bc
+blk.22.ssm_out.weight	Q4_K	4096x2560	10485760	5898240	DeltaNet gate/out/alpha/beta	9f7ebb34a5dca213bc44013bbe641a708553ef994f095a13af37404b1fc5f572
+blk.23.attn_k.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	f07f5b6f99d234d4f43ee2d22b2c2c5db1369bdbddc53dc31bf9d681bc5817fe
+blk.23.attn_k_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	c318e0210d0e3a47bc633c39d33990780f341b81dc973848cdf532657d39a297
+blk.23.attn_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	7c90e23b34b8136ef9c3660ed154bc900017e9d82f6ec5ab63061de6f24872d2
+blk.23.attn_output.weight	Q4_K	4096x2560	10485760	5898240	full attention q/k/v/output	b50a7564887635f74ef92bb1c5888f9594a42f1847edd76172366989ae7bf5ea
+blk.23.attn_q.weight	Q4_K	2560x8192	20971520	11796480	full attention q/k/v/output	6740ce64dc03b33bcf96cbb02a282ffb560d78eb1c9d30e89df087f2e5d4e41b
+blk.23.attn_q_norm.weight	F32	256	256	1024	f32 norms, conv, A, dt	3b8b046c22f3612cff2184a8f84492777f1b1f14a29772633b927ef783dbf7a1
+blk.23.attn_v.weight	Q4_K	2560x1024	2621440	1474560	full attention q/k/v/output	d6b18d483671f5552494251793e182998c09c43ef5e0a1445e8d1991348830db
+blk.23.ffn_down.weight	IQ4_XS	9216x2560	23592960	12533760	ffn gate/up/down	6bb6dfb1c1afcf9b9d5de8c6d3d1e937aa6a22317c04d50844ebd6dfbadedb2c
+blk.23.ffn_gate.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	364ec11ec078ad0edc629f9e69e86fda5ad5697672e9e881854ffc7e504a318f
+blk.23.ffn_up.weight	IQ4_XS	2560x9216	23592960	12533760	ffn gate/up/down	79cf60e058d1af5c380aa70b93de52827988f4122c03e9ce7452adb9af9b277f
+blk.23.post_attention_norm.weight	F32	2560	2560	10240	f32 norms, conv, A, dt	418d788c173360952bcea70d1bb70b64ea8bfca6f8b7d437384fc92e21f7800a
